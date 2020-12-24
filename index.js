@@ -28,8 +28,9 @@ function checkInputs(){
   }
 
   if( passwordValue !== password2Value || passwordValue===''){
-    setErrorFor(password,"password should match and shouldn't be empty")
-    setErrorFor(password2,"password should match and shouldn't be empty")
+    
+    setErrorFor(password,"Try Again")
+    setErrorFor(password2,"Try Again")
   }else{
     setSuccess(password)
     setSuccess(password2)
