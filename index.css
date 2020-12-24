@@ -67,7 +67,7 @@ body{
   border-color:#2ecc71 ;
 }
 
-.form-control.success i.fa fa-check-circle {
+.form-control.success i.fa.fa-check-circle {
   visibility: visible;
   color: #2ecc71;
 }
@@ -77,7 +77,7 @@ body{
   border-color: #e74c3c;
 }
 
-.form-control.error i.fa fa-exclamation {
+.form-control.error i.fa.fa-exclamation {
   visibility: visible;
   color: #e74c3c;
 }
