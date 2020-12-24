@@ -1,0 +1,26 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  border: 2px solid;
+  border-radius: 10px;
+  transition: all;
+  transition-delay: 200ms;
+}
+
+h1:hover{
+  background-color: black;
+  border: 2px solid blue;
+  color: aqua;
+}
